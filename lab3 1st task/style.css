@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #222;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 35px;
+}
+
+.thead {
+  background-color: #1a5276;
+  color: white;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 2px 8px;
+  text-align: left;
+  font-size: 15px;
+  
+}
+td{
+    background-color: #ccdde8;
+}
+
+/* Contact Form */
+.contact-box {
+  background-color: #c8f0c8;
+  border-radius: 45px;
+  padding: 10px 40px 20px 40px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.contact-box h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin:0 0 30px 50px;
+}
+
+.form {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.form label {
+  width: 130px;
+  font-size: 15px;
+  padding-top: 6px;
+}
+
+.form input,
+.form textarea {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: white;
+  margin-right: 36px;
+}
+
+.form textarea {
+  height: 70px;
+  resize: vertical;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 130px;
+}
+
+.submit-btn button {
+  padding: 8px 40px;
+  background-color:white;
+  border: 1px solid white;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.submit-btn button:hover {
+  background-color: #e0e0e0;
+}
