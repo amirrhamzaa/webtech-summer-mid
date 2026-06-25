@@ -1,0 +1,50 @@
+.maindiv {
+    border: 3px solid rgb(83, 28, 220);
+    border-radius: 20px;
+    padding: 40px 10px 40px 10px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.maindiv legend {
+    background-color: blue;
+    color: white;
+    text-align: left;
+    margin: 0 250px 20px 10px;
+    padding: 8px;
+    border-radius: 10px;
+
+}
+table{
+    margin: auto;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    width: 500px;
+    padding: 6px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+
+}
+
+.btn {
+    text-align: center;
+}
+
+.submitbtn {
+    background-color: blue;
+    margin-top: 60px;
+    padding: 5px 20px;
+    color: white;
+}
+
+.clearbtn {
+    padding: 5px 20px;
+
+}
