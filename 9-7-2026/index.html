@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <fieldset>
+    <legend>Student Registration</legend>
+    <form onsubmit="return calculateForm()" id="total">
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" id="firstName">
+                <p id="fnameError" style="font-size: 10px; color:red"></p>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" id="lastName">
+                <p id="lnameError"style="font-size: 10px; color:red"></p></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" id="email">
+                <p id="emailError"style="font-size: 10px; color:red"></p></td>
+            </tr>
+        
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+
+            <tr>
+                <td><p >Total Submission: <span id="total">0</span></p> </td>
+            </tr>
+          
+        </table>
+        </table>
+    </form>
+    </fieldset>
+  </body>
+</html>
