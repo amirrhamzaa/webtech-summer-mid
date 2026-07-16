@@ -1,0 +1,45 @@
+.container {
+    background-color: rgb(217, 221, 226);
+    width: 450px;
+    margin: 50px auto;
+}
+
+td {
+    padding: 6px;
+}
+
+.table td:first-child {
+    font-weight: bold;
+
+}
+
+p {
+    margin: 2px 0 0;
+    color: red;
+    font-size: 10px;
+}
+
+.requirred {
+    color: red;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(227, 217, 217);
+
+}
+
+.registered {
+    text-align: center;
+
+}
+
+#registrationTable {
+    margin: 30px auto;
+    border: 2px solid;
+}
+
+th {
+    background-color: rgb(255, 246, 246);
+}

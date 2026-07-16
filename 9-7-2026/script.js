@@ -6,17 +6,17 @@ function calculateForm() {
 
   let hasNameError = true;
   let hasEmailError = true;
-  if (!name) {
+  if (!fName) {
     document.getElementById("fnameError").innerHTML = "Name can not be empty";
     document.getElementById("fnameError").style.color = "red";
     hasNameError = true;
-  } else if (name.length < 3) {
+  } else if (fName.length < 3) {
     document.getElementById("fnameError").innerHTML =
       "Name must be at least 3 char";
     document.getElementById("fnameError").style.color = "red";
     hasNameError = true;
   } else {
-    document.getElementById("fnam").innerHTML = "";
+    document.getElementById("fnameError").innerHTML = "";
     hasNameError = false;
   }
 

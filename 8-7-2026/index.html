@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <fieldset>
+            <legend>
+                Product Cart
+            </legend>
+
+        <form onsubmit="return calculate()" action="" method="" enctype="" >
+
+         <table>
+            <tr>
+                <td>Product Name:</td>
+                <td><input type="text" id="" value="Corsire Ram(32gb)" readonly/></td>
+            </tr>
+            <tr>
+                <td>Product Price</td>
+                <td><input type="number" value="3200" id="price" readonly></td>
+            </tr>
+            <tr>
+                <td>Quantity:</td>
+                <td><input type="number" id="quantity">
+                
+                </td>
+                <td><p id="quantityError" style="color: blue;" ></p></td>
+            </tr>
+            <tr>
+                <td>Payable Bill:</td>
+                <td><input type="number" id="payable" readonly></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button id="button" style="color: rgb(85, 200, 124);" onclick="return check()">Add to Cart.</button>
+                </td>
+                <td></td>
+            </tr>
+         </table>   
+        </form>
+        <div style="text-align: center;">
+        <button onclick="return clearForm();" >Clear</button>
+        </div>
+        </fieldset>
+    </body>
+</html>
